@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <title>atividade03</title>
+    </head>
+    <body>
+        <form>
+            <fieldset style="width: 60%;" >
+                <p>Manutenção do Ôrgão Colegiado</p>
+                <label>Unidade</label>
+                <input type="text" id="ntext" name="ntext"/>
+                <label>Tipo Colegiado</label>
+                <input type="text" id="ntext1" name="ntext1"/>
+                <br><br>
+                <label>Ôrgão Colegiado</label>
+                <br><br>
+                <label>Nome</label>
+                <input type="text" id="ntext2" name="ntext2"/>
+                <br><br>
+                <label>Sigla</label>
+                <input type="text" id="ntext3" name="ntext3" placeholder="CFIS"/>
+                <label style="margin-left: 300px;" >status</label> 
+                <select name="select">
+                    <option value="Ativado">Ativado</option>
+                </select>     
+                <p>Data Ativação</p>
+                <input type="date" id="ntext4" name="ntex4" placeholder="15/10/2000"/> 
+                <label style="margin-left: 300px;" >Data desativação</label>
+                <select name="select">
+                    <option value="desativado">Desativado</option>
+                </select>
+                <br><br>
+                <label>Ôrgão de Origem</label>
+                <input type="text" id="ntext5" name="ntext5">
+                <button type="button">buscar</button>
+                <br><br>
+                <label>Ôrgão Superior </label>
+                <input type="text" id="ntext8" name="ntext8">
+                <button type="button">buscar</button>
+                <p>Documentação</p>
+                <textarea id="areatext" name="areatext" rows="4" cols="50">Orgão criado com
+o objetivo de aprovar normas da unidade</textarea>
+                <br><br>
+                <button type="button1">Salvar</button>
+                <button style="margin-left: 300px;">Excluir</button>
+
+            </fieldset>
+        </form>
+    </body>
+</html>
